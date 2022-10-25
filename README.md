@@ -5,11 +5,11 @@ hooksdemo
 
 
 
-#Create an organization
+# Create an organization
 Go to Github -> create a new organization -> follow the steps
 
 
-#Create an access token for the demo
+# Create an access token for the demo
 Settings -> Developer settings -> Fine grained tokens -> generate new token
 Give it a name
 Set expiration
