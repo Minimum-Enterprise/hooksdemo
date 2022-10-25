@@ -19,7 +19,7 @@ Generate!
 Copy the output so you can use it as bearer in CLI code
 
 
-#Create a webhook in CLI
+# Create a webhook in CLI
 -X POST \
 -H "Accept: application/vnd.github+json" \
 -H "Authorization: Bearer <YOUR-TOKEN>" \
@@ -38,10 +38,10 @@ post '/payload' do
   push = JSON.parse(request.body.read)
   puts "I got some JSON: #{push.inspect}"
 end
-  
-  
-  
-  #READMORE
+
+
+ 
+# Read more 
   How to create a webhook step by step - https://docs.github.com/en/rest/orgs/webhooks#create-an-organization-webhook
 Best practices for integrators - https://docs.github.com/en/rest/guides/best-practices-for-integrators
 Types of Github events - https://docs.github.com/en/developers/webhooks-and-events/events/github-event-types
